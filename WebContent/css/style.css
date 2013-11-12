@@ -1,0 +1,19 @@
+@CHARSET "UTF-8";
+
+@font-face{
+	font-family: forte;
+	src: url('Fuentes/FORTE.TTF');
+}
+
+@font-face{
+	font-family: coprgt;
+	src: url('Fuentes/COPRGTL.TTF');
+}
+
+.logo{
+	font-family: forte;
+}
+
+p a{
+	font-familiy: coprgt;
+}
