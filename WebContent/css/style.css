@@ -1,19 +1,41 @@
 @CHARSET "UTF-8";
 
-@font-face{
-	font-family: forte;
-	src: url('Fuentes/FORTE.TTF');
-}
+
 
 @font-face{
 	font-family: coprgt;
-	src: url('Fuentes/COPRGTL.TTF');
+	src: url('./Fuentes/COPRGTL.TTF');
 }
 
 .logo{
 	font-family: forte;
+	color: white;
+	font-size: 80px;
 }
 
-p a{
+
+.barra{
+	
+	background-color: #635297;
+	border-color: #635297;
+	background-image: none;
+		
+}
+
+.botonBarra{
+	background-color: #BDBCD2;
+	
+	margin-top: 15px;
+	margin-left: 15px;
+	color: white;
+}
+
+div > button.botonBarra : hover{
+	background-color: white;
+	border-color: #635297;
+	color: #635297;
+}
+
+.texto{
 	font-familiy: coprgt;
 }
