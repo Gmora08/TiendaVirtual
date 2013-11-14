@@ -12,6 +12,7 @@
     
 <!-- Plugins JavaScript de Bootstrap -->
 	<script src="boostrap/js/bootstrap.min.js"></script>
+	<script src="boostrap/js/holder.js"></script>
 <!-- CSS propios -->
 	<link href="css/style.css" rel="stylesheet" media="screen">
 	<link href="css/shame.css" rel="stylesheet" media="screen">
@@ -31,17 +32,148 @@
 						<p class="logo navbar-brand textoBarra">VirtualStore</p>
 					</div>
 				</div>
-				<div class="col-md-2">
-					<button type="button" class="btn botonBarra">Login</button>
-					<button type="button" class="btn botonBarra">Logout</button>
+				<div class="col-md-4 pull-rigth">
+					<button type="submit" class="btn botonBarra" data-toggle="modal" data-target="#Login">Iniciar Sesión</button>
+					<button type="submit" class="btn botonBarra" data-toggle="modal" data-target="#Registro">Registro</button>
 				</div>
-				<div class="col-md-1">
-					
-				</div>
+				
 			</div>
 		</div>
 	</div>
 	<!-- ***********************./NAVBAR ***********************-->
+	
+	<!-- ************************ Menu ********************** -->
+	<div class="container">
+		<div class="jumbotron">
+			<p class="titulo center-block">Bienvenido !</p>
+			<p class="lead texto">Ingresa a nuestra Tienda donde obtendras los mejores productos a los mejores productos</p>
+			<p class="btn btn-lg botonBarra">Registrarse</p>
+				
+		</div>
+			
+		<div class="row">
+			<div class="col-md-4">
+				<div class="bloqueImagen">
+				<h2 class="textoGeneral">Laptops</h2>
+				<p class="textoGeneral2">Consigue las mejores laptops a los mejores precios</p>
+				<div class="centrar"><img width="35%" height="35%" class="img-rounded" src="imagenes/pc1.png"></div>
+				</div>
+			</div>			
+			<div class="col-md-4">
+				<div class="bloqueImagen">
+				<h2 class="textoGeneral">Apple</h2>
+				<p class="textoGeneral2">Consigue las mejores Macbook a los mejores precios</p>
+				<div class="centrar"><img width="35%" height="35%" class="img-rounded" src="imagenes/pc2.png"></div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="bloqueImagen">
+				<h2 class="textoGeneral">Tablets</h2>
+				<p class="textoGeneral2">Consigue las mejores tabletas a los mejores precios</p>
+				<div class="centrar"><img width="35%" height="35%" class="rounded" src="imagenes/pc3.png"></div>
+				</div>
+			</div>
+			
+		</div>
+		<br><br><br>
+		<div class="footer">
+	        <p class="texto">© VirtualStore S.A. de C.V. 2013</p>
+	    </div>
+	</div>	
+	
+	<!-- ************************ Menu ********************** -->
+	
+	<!-- ********************************** MODAL DE INICIO DE SESIÓN **************************************** -->
+	
+	<div class="modal fade" id="Login" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+					<h4 class="modal-title textoGeneral">Inicio Sesión</h4>
+				</div>
+				<div class="model-body">
+					
+					<div class="container">
+						<h5 class="texto">Nombre de Usuario:</h5>
+						<div class="form-group">
+							<input type="text" class="input form-control" placeholder="Nombre">
+						</div>
+						<h5 class="texto">Email:</h5>
+						<div class="form-group">
+							<input type="email" class="input form-control" placeholder="ejemplo@email.com">
+						</div>
+						<h5 class="texto">Confirmar email:</h5>
+						<div class="form-group">
+							<input type="email" class="input form-control" placeholder="ejemplo@email.com">
+						</div>
+						<h5 class="texto">Contraseña:</h5>
+						<div class="form-group">
+							<input type="password" class="input form-control" placeholder="password">
+						</div>
+						<h5 class="texto">Confirmar Contraseña:</h5>
+						<div class="form-group">
+							<input type="password" class="input form-control" placeholder="Confirmar password">
+						</div>
+					</div> 		
+				</div>
+				<div class="model-footer">
+					<button type="button" class="btn botonBarraMenu" data-dismiss="modal">Cerrar</button>
+					<button type="button" class="btn botonBarraMenu">Guardar</button>
+				</div>
+			</div>
+		</div>
+	</div>		
+	<!-- *********************************./MODAL DE INICIO DE SESIÓN **************************************** -->
+	
+	<!-- ********************************** MODAL DE Regustrarse **************************************** -->
+	
+	<div class="modal fade" id="Registro" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" area-hidden="true">×</button>
+					<h4 class="modal-title textoGeneral">Registro</h4>
+				</div>
+				<div class="model-body">
+					
+					<div class="container">
+											
+							<h5 class="texto">Nombre de Usuario:</h5>
+							<div class="form-group">
+								<input type="text" class="form-control input" placeholder="Nombre">
+							</div>
+							<h5 class="texto">Email:</h5>
+							<div class="form-group">
+								<input type="email" class="input form-control" placeholder="ejemplo@email.com">
+							</div>
+							<h5 class="texto">Confirmar email:</h5>
+							<div class="form-group">
+								<input type="email" class="input form-control" placeholder="ejemplo@email.com">
+							</div>
+							<h5 class="texto">Contraseña:</h5>
+							<div class="form-group">
+								<input type="password" class="input form-control" placeholder="password">
+							</div>
+							<h5 class="texto">Confirmar Contraseña:</h5>
+							<div class="form-group">
+								<input type="password" class="input form-control" placeholder="Confirmar password">
+							</div>
+					
+					</div> 		
+				</div>
+				<div class="model-footer">
+					<button type="button" class="btn botonBarraMenu" data-dismiss="modal">Cerrar</button>
+					<button type="button" class="btn botonBarraMenu">Guardar</button>
+				</div>
+			</div>
+		</div>
+	</div>		
+	<!-- *********************************./MODAL DE Registrase **************************************** -->
+	
+	
+	
+	
 	
 </body>
 </html>

@@ -4,13 +4,40 @@
 
 @font-face{
 	font-family: coprgt;
-	src: url('./Fuentes/COPRGTL.TTF');
+	src: url('../Fuentes/COPRGTL.TTF');
 }
 
 .logo{
 	font-family: forte;
-	color: white;
-	font-size: 80px;
+	color: #635297;
+	font-size: 50px;
+}
+
+.titulo{
+	font-family: forte;
+	color: #635297;
+	font-size: 100px;
+	margin: 10px;
+}
+.texoTitulo{
+	font-family: forte;
+	color: #635297;
+	
+}
+
+.textoGeneral{
+	color: #635297;
+	font-family: forte;
+}
+
+.texto{
+	color: #BDBCD2;
+	
+}
+.textoGeneral2{
+
+	color: #BDBCD2;
+	
 }
 
 
@@ -24,18 +51,36 @@
 
 .botonBarra{
 	background-color: #BDBCD2;
-	
-	margin-top: 15px;
-	margin-left: 15px;
+	margin-top: 13px;
+	margin-left: 25px;
 	color: white;
 }
 
-div > button.botonBarra : hover{
-	background-color: white;
-	border-color: #635297;
-	color: #635297;
+.botonBarraMenu{
+	background-color: #BDBCD2;
+	margin-top: 13px;
+	margin-left: 25px;
+	margin-bottom: 10px;
+	color: white;
 }
 
-.texto{
-	font-familiy: coprgt;
+.bloqueImagen{
+	background-color: #eee;
+	border-color: #635297;
+	
+	padding: 5px;
 }
+
+.centrar{
+	margin-left: 50px;
+	
+	
+}
+
+.input{
+	
+	width: 48% !important;
+}
+
+	
+
